@@ -3,8 +3,12 @@
 	src: url('PUSAB.otf');
 }
 
+html {
+	background-color: black;
+}
+
 .webgl-content * { border: 0; margin: 0; padding: 0; }
-.webgl-content { font-family: PUSAB; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.webgl-content { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
 .webgl-content .logo, .progress { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 .webgl-content .logo { background: url('progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px; }
@@ -16,6 +20,6 @@
 .webgl-content .progress.Dark .empty { background-image: url('progressEmpty.Dark.png'); }
 .webgl-content .progress.Dark .full { background-image: url('progressFull.Dark.png'); }
 
-.webgl-content .footer { margin-top: 5px; height: 38px; line-height: 38px; font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 18px; }
+.webgl-content .footer { margin-top: 5px; height: 38px; line-height: 38px; font-family: PUSAB; font-size: 18px; color: white; }
 .webgl-content .footer .title { width: 100%; height: 100%; display: inline-block; background: transparent center no-repeat; text-align: center; }
 .webgl-content .footer .fullscreen { background-image: url('fullscreen.png'); width: 38px; float: right; }
