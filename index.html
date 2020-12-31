@@ -6,6 +6,11 @@
     <title>Breakout</title>
     <link rel="shortcut icon" href="TemplateData/favicon.png">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <script>
+      if (screen.width < 960 || screen.height < 540) {
+        window.location = "mobile.html";
+      }
+    </script>
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
@@ -19,9 +24,6 @@
     <script>      
       var container = document.getElementById('unityContainer');
       container.focus();
-      if (screen.width < 960 || screen.height < 540) {
-        window.location = "mobile.html";
-      }
     </script>
   </body>
 </html>
