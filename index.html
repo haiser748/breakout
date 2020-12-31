@@ -18,7 +18,24 @@
     </div>
     <script>
       var container = document.getElementById('unityContainer');
-      container.focus();   
+      container.focus();  
+      // check canvas size(update)
+      function checkCanvasSize() {
+        if (documentElement.clientWidth <= documentElement.clientHeight) {
+          canvas.style.width = '100%';
+          canvas.style.height = 'auto';
+        }
+        else {
+          canvas.style.width = 'auto';
+          canvas.style.height = '100%';
+        }
+      }
+
+      // update
+      checkCanvasSize();
+
+      // window callbacks
+      window.onresize = function(event) { checkCanvasSize(); };
     </script>
   </body>
 </html>
