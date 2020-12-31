@@ -16,28 +16,9 @@
     <div class="webgl-content">
       <div id="unityContainer" style="width: 960px; height: 540px"></div>
     </div>
-    <script>
-      const documentElement = document.documentElement;
-      
+    <script>      
       var container = document.getElementById('unityContainer');
-      container.focus();  
-      // check canvas size(update)
-      function checkCanvasSize() {
-        if (documentElement.clientWidth <= documentElement.clientHeight) {
-          canvas.style.width = '100%';
-          canvas.style.height = 'auto';
-        }
-        else {
-          canvas.style.width = 'auto';
-          canvas.style.height = '100%';
-        }
-      }
-
-      // update
-      checkCanvasSize();
-
-      // window callbacks
-      window.onresize = function(event) { checkCanvasSize(); };
+      container.focus();
     </script>
   </body>
 </html>
