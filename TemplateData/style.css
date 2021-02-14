@@ -1,4 +1,4 @@
-body { margin: 0; padding: 0; background-image: url('Fuzzy Background.png'); }
+body { margin: 0; padding: 0; background: url(Fuzzy Background.png) no-repeat; }
 
 .site-header { width: 100%; text-align: center; display: table; height: 40px; position: relative; overflow: hidden; }
 .site-header div { display: table-cell; vertical-align: middle; }
