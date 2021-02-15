@@ -19,7 +19,7 @@ body {
 }
 
 .site-header { top: 10px; width: 100%; text-align: center; display: table; height: 40px; position: relative; overflow: hidden; }
-.site-header div { display: table-cell; vertical-align: middle; }
+.site-header div { margin: auto; vertical-align: middle; }
 .site-header a { text-decoration: none; color: white; }
 
 .webgl-content { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
