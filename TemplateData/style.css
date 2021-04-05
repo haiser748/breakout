@@ -38,3 +38,9 @@ body {
     border-radius: 10px;
     margin: auto;
 }
+
+.ref-button a {
+    text-decoration: none; 
+    color: white;
+    margin: auto;
+}
