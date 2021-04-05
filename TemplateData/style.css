@@ -27,3 +27,14 @@ body {
 .webgl-content .logo.Dark { background-image: url('progressLogo.Dark.png'); }
 .webgl-content .progress.Dark .empty { background-image: url('progressEmpty.Dark.png'); }
 .webgl-content .progress.Dark .full { background-image: url('progressFull.Dark.png'); }
+
+.ref-button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(38, 115, 191);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    margin: auto;
+}
