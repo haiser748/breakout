@@ -29,7 +29,7 @@ body {
 .webgl-content .progress.Dark .full { background-image: url('progressFull.Dark.png'); }
 
 .ref-button {
-    width: 200px;
+    width: 300px;
     height: 40px;
     background-color: rgb(38, 115, 191);
     display: flex;
