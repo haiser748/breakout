@@ -3,13 +3,13 @@
 html {
     width: 100%;
     height: 100%;
-    background: black no-repeat center;
+    background: no-repeat center;
 }
 
 body { 
     width: 100%;
     height: 100%;  
-    background: black no-repeat;
+    background: no-repeat;
 }
 
 .site-header { top: 10px; width: 100%; text-align: center; display: table; height: 40px; position: relative; overflow: hidden; }
