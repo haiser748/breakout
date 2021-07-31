@@ -1,2 +1,2 @@
-/index.html
-/mobile.html
+https://breakout-io.site/index.html
+https://breakout-io.site/mobile.html
