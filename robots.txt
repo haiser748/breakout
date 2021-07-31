@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /index.html
 Host: evpastroi.ru
-Sitemap: http://evpastroi.ru/sitemap.txt
+Sitemap: /sitemap.txt
