@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /index.html
-Host: evpastroi.ru
+Disallow: /mobile.html
+Host: breakout-io.site
 Sitemap: /sitemap.txt
