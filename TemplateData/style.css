@@ -38,6 +38,7 @@ body {
     border-radius: 10px;
     margin: auto;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .ref-button a {
